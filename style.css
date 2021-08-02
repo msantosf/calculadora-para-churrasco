@@ -1,0 +1,32 @@
+* {
+    list-style: none;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    background-image: url('img/roasted-pork-steak-dark-surface.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.centralizar {
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+.col-12 input {
+    margin: 5px 0;
+    width: 40%;
+}
+
+.calculadora {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+    height: 100%;
+    padding: 20px 0;
+}

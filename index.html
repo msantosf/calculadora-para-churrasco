@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule seu Churrasco</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7174e16c8b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="container">
+
+        <section class="content centralizar">
+
+            <div class="row align-items-center calculadora">
+                <h1>Calculadora para Churrasco </h1>
+                <p>Insira os dados abaixo para calcularmos as quantias necessárias para fazer aquele churrasco perfeito!
+                </p>
+
+                <div class="col-4">
+                    <input class="form-control" type="number" name="adults" placeholder="Número de Adultos" min="1">
+                </div>
+
+                <div class="col-4">
+                    <input class="form-control" type="number" name="children" placeholder="Número de Crianças" min="1">
+                </div>
+
+                <div class="col-4">
+                    <input class="form-control" type="number" name="hours" placeholder="Média de hora de duração do churrasco">
+                </div>
+
+                <div class="col-12">
+                    <input class="btn btn-primary" type="submit" value="Calcular" onclick="getAnswers()">
+                </div>
+
+                <div id="resultado" class="content centralizar">
+
+                </div>
+
+            </div>
+
+            
+        </section>
+
+    </main>
+
+    <footer class="">
+        <section class="row">
+            <div class="col-12 centralizar">
+                <p style="color:#fff; font-weight: bold;">Calculadora desenvolvida como tarefa do curso ProgramadorBr</p>
+                <p style="color:#fff; font-weight: bold;">Desenvolvido por <a style="color:#F7DC6F" href="https://www.linkedin.com/in/matheus-dos-santos-feo/">Matheus Féo</a></p>
+                <p style="color:#fff; font-weight: bold; font-size: 0.7em;">Imagem de fundo obtida em: <a style="color:#F7DC6F" href='https://www.freepik.com/photos/food'>Food photo created by jcomp - www.freepik.com</a></p>
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
